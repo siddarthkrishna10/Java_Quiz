@@ -10,7 +10,7 @@ import java.util.List;
 
 import fr.epita.quiz.datamodel.Question;
 
-public class QuestionDAO 
+public class Question_DAO 
 {
 	private static final String DB_PASSWORD = "";
 	private static final String DB_USERNAME = "test";

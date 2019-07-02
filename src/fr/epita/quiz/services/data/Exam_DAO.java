@@ -1,6 +1,6 @@
 package fr.epita.quiz.services.data;
 
-public class ExamDAO 
+public class Exam_DAO 
 {
 
 }

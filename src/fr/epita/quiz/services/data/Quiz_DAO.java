@@ -2,7 +2,7 @@ package fr.epita.quiz.services.data;
 
 import fr.epita.quiz.datamodel.Quiz;
 
-public class QuizDAO 
+public class Quiz_DAO 
 {
 	public void create(Quiz quiz)
 	{

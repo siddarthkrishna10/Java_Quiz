@@ -13,7 +13,7 @@ public class Question
 	
 	private Answer answer = null;
 	
-	private List<MCQChoice> choices = new ArrayList();
+	private List<MCQ_Choice> choices = new ArrayList();
 	
 	public String getQuestion() 
 	{
@@ -66,12 +66,12 @@ public class Question
 		this.answer = answer;
 	}
 	
-	public List<MCQChoice> getChoices()
+	public List<MCQ_Choice> getChoices()
 	{
 		return choices;
 	}
 	
-	public void setChoices(List<MCQChoice> choices)
+	public void setChoices(List<MCQ_Choice> choices)
 	{
 		this.choices = choices;
 	}

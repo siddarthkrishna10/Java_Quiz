@@ -1,8 +1,8 @@
 package fr.epita.quiz.datamodel;
 
-public class MCQChoice 
+public class MCQ_Choice 
 {
-	private MCQQuestion question;
+	private MCQ_Question question;
 	private String choice;
 	private boolean valid;
 
@@ -11,7 +11,7 @@ public class MCQChoice
 		return choice;
 	}
 
-	public MCQChoice(MCQQuestion question, String choice, boolean valid) 
+	public MCQ_Choice(MCQ_Question question, String choice, boolean valid) 
 	{
 		super();
 		this.question = question;
@@ -19,7 +19,7 @@ public class MCQChoice
 		this.valid = valid;
 	}
 
-	public MCQChoice(String choice, boolean valid) 
+	public MCQ_Choice(String choice, boolean valid) 
 	{
 		super();
 		this.choice = choice;
@@ -41,12 +41,12 @@ public class MCQChoice
 		this.valid = valid;
 	}
 
-	public MCQQuestion getQuestion() 
+	public MCQ_Question getQuestion() 
 	{
 		return question;
 	}
 
-	public void setQuestion(MCQQuestion question) 
+	public void setQuestion(MCQ_Question question) 
 	{
 		this.question = question;
 	}

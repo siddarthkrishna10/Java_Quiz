@@ -5,7 +5,7 @@ import java.util.List;
 public class Exam 
 {
 	private List<Answer> listAnswers;
-	private List<MCQAnswer> listMCQAnswers;
+	private List<MCQ_Answer> listMCQAnswers;
 	
 	private long grade;
 	private Student student;
@@ -21,12 +21,12 @@ public class Exam
 		this.listAnswers = listAnswers;
 	}
 
-	public List<MCQAnswer> getListMCQAnswers() 
+	public List<MCQ_Answer> getListMCQAnswers() 
 	{
 		return listMCQAnswers;
 	}
 
-	public void setListMCQAnswers(List<MCQAnswer> listMCQAnswers) 
+	public void setListMCQAnswers(List<MCQ_Answer> listMCQAnswers) 
 	{
 		this.listMCQAnswers = listMCQAnswers;
 	}

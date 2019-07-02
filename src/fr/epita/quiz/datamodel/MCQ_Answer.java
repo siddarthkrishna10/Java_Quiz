@@ -1,9 +1,9 @@
 package fr.epita.quiz.datamodel;
 
-public class MCQAnswer 
+public class MCQ_Answer 
 {
 	private Student student;
-	private MCQChoice choice;
+	private MCQ_Choice choice;
 	
 	public Student getStudent()
 	{
@@ -15,12 +15,12 @@ public class MCQAnswer
 		this.student = student;
 	}
 	
-	public MCQChoice getChoice()
+	public MCQ_Choice getChoice()
 	{
 		return choice;
 	}
 	
-	public void setChoice(MCQChoice choice)
+	public void setChoice(MCQ_Choice choice)
 	{
 		this.choice = choice;
 	}

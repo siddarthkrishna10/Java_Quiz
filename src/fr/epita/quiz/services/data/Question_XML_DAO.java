@@ -25,10 +25,10 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import fr.epita.quiz.datamodel.Answer;
-import fr.epita.quiz.datamodel.MCQChoice;
+import fr.epita.quiz.datamodel.MCQ_Choice;
 import fr.epita.quiz.datamodel.Question;
 
-public class QuestionXMLDAO 
+public class Question_XML_DAO 
 {
 	private static final String XML_FILENAME = "student.xml";
 
@@ -110,9 +110,9 @@ public class QuestionXMLDAO
 		return answer;
 	}
 
-	private List<MCQChoice> getChoicesFromQuestion(Element question) 
+	private List<MCQ_Choice> getChoicesFromQuestion(Element question) 
 	{
-		List<MCQChoice> choices = new ArrayList();
+		List<MCQ_Choice> choices = new ArrayList();
 		if(question.getElementsByTagName("choices").getLength()!=0) 
 		{
 			Element topicsElement = (Element) question.getElementsByTagName("choices").item(0);
@@ -120,7 +120,7 @@ public class QuestionXMLDAO
 			for (int i = 0; i < topicsList.getLength(); i++) 
 			{
 				Element topic = (Element) topicsList.item(i);
-				choices.add(new MCQChoice(topic.getTextContent(),Boolean.valueOf(topic.getAttribute("valid"))));
+				choices.add(new MCQ_Choice(topic.getTextContent(),Boolean.valueOf(topic.getAttribute("valid"))));
 			}
 		}
 		return choices;

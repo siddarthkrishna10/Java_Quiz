@@ -1,6 +1,6 @@
 package fr.epita.quiz.datamodel;
 
-public class MCQQuestion extends Question
+public class MCQ_Question extends Question
 {
 
 }

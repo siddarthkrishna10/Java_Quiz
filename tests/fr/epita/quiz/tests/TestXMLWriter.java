@@ -21,7 +21,7 @@ import org.w3c.dom.Element;
 import org.xml.sax.SAXException;
 
 import fr.epita.quiz.datamodel.Question;
-import fr.epita.quiz.services.data.QuestionXMLDAO;
+import fr.epita.quiz.services.data.Question_XML_DAO;
 
 public class TestXMLWriter 
 {
@@ -32,7 +32,7 @@ public class TestXMLWriter
 
 	private static void delete() throws SAXException, IOException, ParserConfigurationException, TransformerConfigurationException, TransformerFactoryConfigurationError, TransformerException 
 	{
-		QuestionXMLDAO dao = new QuestionXMLDAO();
+		Question_XML_DAO dao = new Question_XML_DAO();
 		List<Question> listQuestions = dao.getAllQuestions();
 		Question question = listQuestions.get(0);
 		dao.delete(question);
@@ -40,7 +40,7 @@ public class TestXMLWriter
 
 	private static void modify() throws SAXException, IOException, ParserConfigurationException, TransformerException 
 	{
-		QuestionXMLDAO dao = new QuestionXMLDAO();
+		Question_XML_DAO dao = new Question_XML_DAO();
 		List<Question> listQuestions = dao.getAllQuestions();
 		Question question = listQuestions.get(0);
 		question.setDifficulty(1);

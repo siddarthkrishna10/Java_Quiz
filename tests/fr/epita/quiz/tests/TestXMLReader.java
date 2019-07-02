@@ -17,7 +17,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import fr.epita.quiz.services.data.QuestionXMLDAO;
+import fr.epita.quiz.services.data.Question_XML_DAO;
 
 public class TestXMLReader 
 {
@@ -74,7 +74,7 @@ public class TestXMLReader
 		System.out.println("***********************");
 		System.out.println("***********************");
 
-		QuestionXMLDAO dao = new QuestionXMLDAO();
+		Question_XML_DAO dao = new Question_XML_DAO();
 		List<String> labels = dao.getAllQuestionLabels();
 		for (String label : labels) 
 		{

@@ -15,7 +15,7 @@ import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 
 import fr.epita.quiz.datamodel.*;
-import fr.epita.quiz.services.data.QuestionXMLDAO;
+import fr.epita.quiz.services.data.Question_XML_DAO;
 
 public class TestQuiz 
 {
@@ -24,12 +24,12 @@ public class TestQuiz
 	private static int type = 0;
 	private static Scanner scan;
 	private static Document doc;
-	private static QuestionXMLDAO dao;
+	private static Question_XML_DAO dao;
 
 	public static void main(String[] args) 
 	{
 		scan = new Scanner(System.in);
-		dao = new QuestionXMLDAO();
+		dao = new Question_XML_DAO();
 		welcomeMenu();
 	}
 

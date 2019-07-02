@@ -8,7 +8,7 @@ import javax.xml.transform.TransformerFactoryConfigurationError;
 import org.xml.sax.SAXException;
 
 import fr.epita.quiz.datamodel.Question;
-import fr.epita.quiz.services.data.QuestionXMLDAO;
+import fr.epita.quiz.services.data.Question_XML_DAO;
 
 public class TestDAO
 {
@@ -21,7 +21,7 @@ public class TestDAO
 		topics[0] = "";
 		topics[1] = "";
 		question.setTopics(topics);
-		QuestionXMLDAO dao = new QuestionXMLDAO();
+		Question_XML_DAO dao = new Question_XML_DAO();
 		dao.create(question);
 	}
 
