@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<questions>
+	<question order="1">
+		<id>1</id>
+		<label>JDK Stands For? (Type Your Answer)</label>
+		<difficulty>2</difficulty>
+		<topics>
+			<topic>Java</topic>
+			<topic>C++</topic>
+		</topics>
+		<answers>
+			<answer>Java Development Kit</answer>
+		</answers>
+	</question>
+	<question order="2">
+		<id>2</id>
+		<label> Java and C++ Support OOP?</label>
+		<difficulty>3</difficulty>
+		<topics>
+			<topic>Java</topic>
+			<topic>C++</topic>
+		</topics>
+		<choices>
+			<choice valid="false">No</choice>
+			<choice valid="true">Yes</choice>
+		</choices>
+	</question>
+	<question order="3">
+		<id>3</id>
+		<label>What are the main differences between Java and C ?</label>
+		<difficulty>1</difficulty>
+		<topics>
+			<topic>Java</topic>
+			<topic>C++</topic>
+		</topics>
+		<choices>
+			<choice valid="true">OOP</choice>
+			<choice valid="false">Procedures</choice>
+			<choice valid="false">Garbage collector</choice>
+		</choices>
+	</question>
+	<question order="4">
+		<id>4</id>
+		<label>Which of the following is the variable type defined in header string. h </label>
+		<difficulty>3</difficulty>
+		<topics>
+			<topic>Java</topic>
+			<topic>C++</topic>
+		</topics>
+		<choices>
+			<choice valid="false"> sizet </choice>
+			<choice valid="true"> size_t </choice>
+			<choice valid="false"> size </choice>
+			<choice valid="false"> size-t </choice>
+		</choices>
+	</question>
+	<question order="5">
+		<id>5</id>
+		<label>WWhich function will you choose to join two words? </label>
+		<difficulty>3</difficulty>
+		<topics>
+			<topic>Java</topic>
+			<topic>C++</topic>
+		</topics>
+		<choices>
+			<choice valid="true"> strcat() </choice>
+			<choice valid="false"> strcpy() </choice>
+			<choice valid="false"> strncon() </choice>
+			<choice valid="false"> memcon() </choice>
+		</choices>
+	</question>
+	<question order="6">
+		<id>6</id>
+		<label>Translator which is used to convert codes of assembly language into machine language is termed as: </label>
+		<difficulty>3</difficulty>
+		<topics>
+			<topic>Java</topic>
+			<topic>C++</topic>
+		</topics>
+		<choices>
+			<choice valid="true"> assembler </choice>
+			<choice valid="false"> attempter </choice>
+			<choice valid="false"> compiler </choice>
+			<choice valid="flase"> debugger </choice>
+		</choices>
+	</question>
+</questions>
