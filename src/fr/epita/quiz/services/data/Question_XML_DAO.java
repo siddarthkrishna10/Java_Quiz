@@ -30,7 +30,7 @@ import fr.epita.quiz.datamodel.Question;
 
 public class Question_XML_DAO 
 {
-	private static final String XML_FILENAME = "student.xml";
+	private static final String XML_FILENAME = "Test_Student.xml";
 
 	public List<Question> getAllQuestions() throws SAXException, IOException, ParserConfigurationException 
 	{
