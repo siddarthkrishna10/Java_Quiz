@@ -82,5 +82,6 @@
 			<choice valid="false"> java.io </choice>
 			<choice valid="false"> java.system </choice>
 			<choice valid="false"> java.util </choice>
+		</choices>
 	</question>
 </questions>
