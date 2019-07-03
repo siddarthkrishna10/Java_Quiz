@@ -78,9 +78,9 @@
 			<topic>C++</topic>
 		</topics>
 		<choices>
-			<choice valid="true">java.lang</choice>
-			<choice valid="false">java.io</choice>
-			<choice valid="false">java.system</choice>
-			<choice valid="false">java.util</choices>
+			<choice valid="true"> java.lang </choice>
+			<choice valid="false"> java.io </choice>
+			<choice valid="false"> java.system </choice>
+			<choice valid="false"> java.util </choice>
 	</question>
 </questions>
