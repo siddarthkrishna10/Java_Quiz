@@ -52,7 +52,7 @@ public class TestXMLWriter
 	{
 		DocumentBuilderFactory fact = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = fact.newDocumentBuilder(); 
-		Document doc = builder.parse(new File("student.xml")); 
+		Document doc = builder.parse(new File("Test_Student.xml")); 
 
 		Element newQuestion = doc.createElement("question"); 
 		newQuestion.setAttribute("order", "3");
@@ -64,6 +64,6 @@ public class TestXMLWriter
 		transformer.setOutputProperty(OutputKeys.INDENT, "yes"); 
 		transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
 		transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "no");
-		transformer.transform(new DOMSource(doc), new StreamResult("student.xml")); 
+		transformer.transform(new DOMSource(doc), new StreamResult("Test_Student.xml")); 
 	}
 }
