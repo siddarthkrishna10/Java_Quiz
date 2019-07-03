@@ -30,7 +30,7 @@ public class TestXMLReader
 	{
 		DocumentBuilderFactory fact = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = fact.newDocumentBuilder(); 
-		Document doc = builder.parse(new File("student.xml")); 
+		Document doc = builder.parse(new File("Test_Student.xml")); 
 		
 		XPathFactory xpathFactory = XPathFactory.newInstance();
 		XPath xpath = xpathFactory.newXPath();
@@ -86,7 +86,7 @@ public class TestXMLReader
 	{
 		DocumentBuilderFactory fact = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = fact.newDocumentBuilder();
-		Document doc = builder.parse(new File("student.xml")); 
+		Document doc = builder.parse(new File("Test_Student.xml")); 
 			
 		NodeList list = doc.getElementsByTagName("question"); 
 		
