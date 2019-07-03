@@ -101,7 +101,7 @@ public class TestQuiz
 			DocumentBuilderFactory fact = DocumentBuilderFactory.newInstance();
 			DocumentBuilder builder;
 			builder = fact.newDocumentBuilder();
-			doc = builder.parse(new File("student.xml"));
+			doc = builder.parse(new File("Test_Student.xml"));
 		} catch (ParserConfigurationException | IOException e) 
 		{
 			e.printStackTrace();
