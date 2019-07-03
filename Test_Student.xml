@@ -72,7 +72,7 @@
 	<question order="6">
 		<id>6</id>
 		<label>Which of these packages contains abstract keyword?</label>
-		<difficulty>3</difficulty>
+		<difficulty>4</difficulty>
 		<topics>
 			<topic>Java</topic>
 			<topic>C++</topic>
