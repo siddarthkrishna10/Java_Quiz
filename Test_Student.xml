@@ -14,7 +14,7 @@
 	</question>
 	<question order="2">
 		<id>2</id>
-		<label> Java and C++ Support OOP?</label>
+		<label>Does Java and C++ Support OOP?</label>
 		<difficulty>3</difficulty>
 		<topics>
 			<topic>Java</topic>
@@ -41,7 +41,7 @@
 	</question>
 	<question order="4">
 		<id>4</id>
-		<label>Which of the following is the variable type defined in header string. h </label>
+		<label>Which of the following is the variable type defined in header string h</label>
 		<difficulty>3</difficulty>
 		<topics>
 			<topic>Java</topic>
@@ -56,7 +56,7 @@
 	</question>
 	<question order="5">
 		<id>5</id>
-		<label>WWhich function will you choose to join two words? </label>
+		<label>Which function will you choose to join two words?</label>
 		<difficulty>3</difficulty>
 		<topics>
 			<topic>Java</topic>
@@ -71,17 +71,16 @@
 	</question>
 	<question order="6">
 		<id>6</id>
-		<label>Translator which is used to convert codes of assembly language into machine language is termed as: </label>
+		<label>Which of these packages contains abstract keyword?</label>
 		<difficulty>3</difficulty>
 		<topics>
 			<topic>Java</topic>
 			<topic>C++</topic>
 		</topics>
 		<choices>
-			<choice valid="true"> assembler </choice>
-			<choice valid="false"> attempter </choice>
-			<choice valid="false"> compiler </choice>
-			<choice valid="flase"> debugger </choice>
-		</choices>
+			<choice valid="true">java.lang</choice>
+			<choice valid="false">java.io</choice>
+			<choice valid="false">java.system</choice>
+			<choice valid="false">java.util</choices>
 	</question>
 </questions>
